@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/default.date.css">
+    <link rel="stylesheet" href="css/rtl.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/fontawesome.min.js"></script>
+    <title>بارهای من</title>
+</head>
+<body>
+<!--header-->
+<div class="container-fluid">
+    <div class="header">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="http://barnama.org">
+                <img src="http://barnama.org/img/logo.png" width="170" alt="">
+            </a>
+            <ul class="navbar-nav mr-5 d-none d-lg-inline-flex">
+                <li class="nav-item ml-4" data-toggle="tooltip" data-placement="bottom" title="به زودی...">
+                    <a class="nav-item nav-link d-block text-center ">
+                        <img src="http://barnama.org/img/truck.png" class="" alt="truck" height="25">
+                        <br>
+                        سفارش حمل بار
+                    </a>
+                </li>
+                <li class="nav-item dropdown ml-4">
+                    <a class="nav-item nav-link d-block text-center dark-hover" href="http://barnama.org/board">
+                        <img src="http://barnama.org/img/monitor.png" class="" alt="monitor" height="25">
+                        <br>
+                        تابلو بارنما
+                    </a>
+                </li>
+                <li class="nav-item ml-2" data-toggle="tooltip" data-placement="bottom" title="به زودی...">
+                    <a class="nav-item nav-link d-block text-center ">
+                        <img src="http://barnama.org/img/box.png" class="" alt="truck" height="25">
+                        <br>
+                        خرده بار
+                    </a>
+                </li>
+            </ul>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav profile-navbar mr-auto">
+                    <li class="nav-item ml-4">
+                        <ul class="navbar-nav mr-right">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle dark-hover" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fa fa-user text-orange ml-1"></i>
+                                    ورود / ثبت نام
+                                    <i class="fa fa-angle-down text-orange"></i>
+                                </a>
+                                <div class="dropdown-menu">
+                                    <form action="http://barnama.org/login" method="post" accept-charset="UTF-8">
+                                        <input type="hidden" name="_token" value="cXlzn8XXs2gwAHMYDgLRzlmtTDAPKt6vnIXTXIO2">
+                                        <div class="form-group text-right dropdown-item-no-link mt-2">
+                                            <input type="text" class="form-control mr-auto ml-auto" id="mobile" name="username" placeholder="شماره موبایل" dir="ltr">
+                                        </div>
+                                        <div class="form-group text-right dropdown-item-no-link">
+                                            <input type="password" class="form-control mr-auto ml-auto" id="password" name="password" placeholder="رمز عبور" dir="ltr">
+                                        </div>
+                                        <div class="dropdown-item-no-link">
+                                            <button type="submit" class="btn btn-block btn-primary-main mb-3 mr-auto ml-auto">ورود</button>
+                                        </div>
+                                        <div class="form-check text-right dropdown-item-no-link">
+                                            <input type="checkbox" class="pt-3 mt-1 mr-2 pl-3" id="remember-me">
+                                            <label for="remember-me">&nbsp;مرا به‌خاطر بسپار</label>
+                                        </div>
+                                        <a class="dropdown-item text-right dropdown-item-no-link" href="http://barnama.org/password/reset">
+                                            <i class="fa fa-angle-left ml-1 text-orange"></i>
+                                            بازیابی رمز عبور
+                                        </a>
+                                    </form>
+                                    <div class="dropdown-divider"></div>
+                                    <div class="dropdown-item-no-link mb-2 text-right">
+                                        <label for="" class="mr-2"> حساب کاربری ندارید؟ </label>
+                                        <a href="http://barnama.org/register" class="btn btn-secondary-green d-table mr-auto ml-auto">ثبت نام</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="navbar-nav contact-navbar pr-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle dark-hover" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <div>
+                                <div class="icon d-table-cell align-middle"><i class="fas fa-phone ml-3 fa-1x text-orange"></i></div>
+                                <div class="text d-table-cell align-top text-right">
+                                    <strong>تماس با ما</strong>
+                                    <br>
+                                    <span class="text-gray-500">۰۲۱۵۵۴۵۹۰۳۴</span>
+                                </div>
+                                <div class="icon d-table-cell align-middle"><i class="fa fa-angle-down text-orange"></i></div>
+                            </div>
+                        </a>
+                        <div class="dropdown-menu text-right">
+                            <div class="text-right dropdown-item-no-link mr-2">
+                                پشتیبانی ۲۴ ساعته
+                                <br>
+                                ۰۲۱۵۵۴۵۹۰۳۴
+                            </div>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item text-right pr-0 pr-2" href="http://barnama.org/page/%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7">
+                                تماس با ما
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+<!--main-->
+<div class="container mt-5 pt-5">
+    <div class="row justify-content-center mt-3">
+        <div class="main w-100">
+            <!--main menu-->
+            <div class="row">
+                <div class="nav w-100">
+                    <ul class="nav nav-justified pr-0 w-100">
+                        <li class="nav-item pl-3">
+                            <a href="dashboard.html" class="nav-link btn btn-link-secondary-active btn-lg main-shadow"><i class="fas fa-user text-gray-500 text-left float-right pt-2 pr-2  text-medium-larger"></i>  <span class="text-medium pl-2"> حساب کاربری</span> </a>
+                        </li>
+                        <li class="nav-item pl-3 pr-3">
+                            <a href="my-cargoes.html" class="nav-link btn btn-link-secondary-active active btn-lg main-shadow"><i class="fas fa-cube text-gray-500 float-right pt-2 pr-2 text-medium-larger"></i> <span class="text-medium pl-2">بارهای من</span> </a>
+                        </li>
+                        <li class="nav-item pr-3 pl-3">
+                            <a href="transactions.html" class="nav-link btn btn-link-secondary-active btn-lg main-shadow"><i class="fas fa-file-alt text-gray-500 float-right pt-2 pr-2 text-medium-larger"></i> <span class="text-medium pl-2">تراکنش های حساب</span> </a>
+                        </li>
+                        <li class="nav-item pr-3 pl-3">
+                            <a href="credit.html" class="nav-link btn btn-link-secondary-active btn-lg main-shadow"><i class="fas fa-credit-card text-gray-500 float-right pt-2 pr-2 text-medium-larger"></i> <span class="text-medium pl-2">افزایش حساب</span> </a>
+                        </li>
+                        <li class="nav-item pr-3">
+                            <a href="" class="nav-link btn btn-link-secondary-active btn-lg main-shadow"><i class="fas fa-map-marker-alt text-gray-500 float-right pt-2 pr-2 text-medium-larger"></i> <span class="text-medium pl-2">آدرس های من</span> </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--main title-->
+            <div class="row">
+                <div class="col-lg-12 main title mt-4 p-0">
+                    <div class="card main-shadow w-100">
+                        <div class="card-title w-100 mb-0">
+                            <div class="card-body pt-3 pb-1">
+                                <h6 class="card-title text-right text-dark text-medium-larger" > بارهای من </h6>
+                            </div>
+                        </div>
+                        <hr class="text-center mr-4 ml-4 mt-1 mb-0">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="form-inline">
+                                    <form action="" class="form-inline">
+                                        <div class="col-lg-3 col-md-6 col-12">
+                                            <label for="" class="float-right mb-2 text-gray-600"> کد پیگیری </label>
+                                            <input type="number" class="form-control text-left d-block w-100">
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 col-12">
+                                            <label for="" class="float-right mb-2 text-gray-600"> نام محموله </label>
+                                            <input type="text" class="form-control text-right d-block w-100">
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 col-12">
+                                            <label for="" class="float-right mb-2 text-gray-600">تاریخ </label>
+                                            <br>
+                                            <div class="row m-0 w-100">
+                                                <div class="w-50">
+                                                    <input type="number" id="number" class="datepicker form-control float-right right-placeholder pl-2 bg-white" placeholder="از" style="width: 95%">
+                                                </div>
+                                                <div class="w-50">
+                                                    <input type="number" id="number" class="datepicker form-control float-left right-placeholder pr-2 bg-white" placeholder="تا" style="width: 95%">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 col-12">
+                                            <label for="" class="mb-2 text-white">dfaf</label>
+                                            <a href="#" class="btn btn-primary-main w-50 float-right"> <i class="fa fa-search text-white float-right mt-1 mr-2"></i>  جستجو </a>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 p-0">
+                    <div class="row w-100 mt-4 ml-0 mr-0">
+                        <div class="col-lg-4 col-md-6 col-12 float-right pl-3 pr-0">
+                            <div class="card main-shadow w-100">
+                                <div class="card-title w-100 mb-1 pr-3 pt-3">
+                                    <h6 class="card-title mb-0 text-right mr-2 d-inline-block float-right">سفارشات ثبت شده</h6>
+                                    <a href="" class="text-orange text-left mb-0 ml-2 all hover-orange"> <span class="text-orange hover-orange">همه </span>  <i class="fas fa-angle-left text-orange mr-2 ml-2"></i></a>
+                                </div>
+                                <hr class="text-center mr-4 ml-4 mt-1 mb-0">
+                                <div class="card-body pr-0 pl-0 pb-0">
+                                    <table class="table table-striped table-borderless">
+                                        <tbody class="">
+                                        <thead>
+                                        <tr class="border-0">
+                                            <td class="pt-3 text-center">۱۲۳۴۵۶۷۸</td>
+                                            <td class="pt-3 text-center">تهران - شیراز</td>
+                                            <td><a href="#" class="btn btn-primary-main btn-sm w-100"> جزيیات </a> </td>
+                                        </tr>
+                                        </thead>
+                                        <tr>
+                                            <td class="pt-3 text-center">۱۲۳۴۵۶۷۸</td>
+                                            <td class="pt-3 text-center">تهران - شیراز</td>
+                                            <td><a href="#" class="btn btn-primary-main btn-sm w-100"> جزيیات </a> </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pt-3 text-center">۱۲۳۴۵۶۷۸</td>
+                                            <td class="pt-3 text-center">تهران - شیراز</td>
+                                            <td><a href="#" class="btn btn-primary-main btn-sm w-100"> جزيیات </a> </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pt-3 text-center">۱۲۳۴۵۶۷۸</td>
+                                            <td class="pt-3 text-center">تهران - شیراز</td>
+                                            <td><a href="#" class="btn btn-primary-main btn-sm w-100"> جزيیات </a> </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pt-3 text-center">۱۲۳۴۵۶۷۸</td>
+                                            <td class="pt-3 text-center">تهران - شیراز</td>
+                                            <td><a href="#" class="btn btn-primary-main btn-sm w-100"> جزيیات </a> </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12 pl-1 pr-1">
+                            <div class="card main-shadow w-100">
+                                <div class="card-title w-100 mb-1 pr-3 pt-3">
+                                    <h6 class="card-title mb-0 text-right mr-2 d-inline-block float-right">بارهای اعلام شده</h6>
+                                    <a href="" class="text-orange text-left mb-0 ml-2 all hover-orange"> <span class="text-orange hover-orange">همه </span>  <i class="fas fa-angle-left text-orange mr-2 ml-2"></i></a>
+                                </div>
+                                <hr class="text-center mr-4 ml-4 mt-1 mb-0">
+                                <div class="card-body pr-0 pl-0 pb-0">
+                                    <table class="table table-striped table-borderless">
+                                        <tbody class="">
+                                        <thead>
+                                            <tr>
+                                                <td class="pt-3 text-center">۱۲۳۴۵۶۷۸</td>
+                                                <td class="pt-3 text-center">تهران - شیراز</td>
+                                                <td><a href="#" class="btn btn-primary-main btn-sm w-100"> جزيیات </a> </td>
+                                            </tr>
+                                        </thead>
+                                        <tr>
+                                            <td class="pt-3 text-center">۱۲۳۴۵۶۷۸</td>
+                                            <td class="pt-3 text-center">تهران - شیراز</td>
+                                            <td><a href="#" class="btn btn-primary-main btn-sm w-100"> جزيیات </a> </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pt-3 text-center">۱۲۳۴۵۶۷۸</td>
+                                            <td class="pt-3 text-center">تهران - شیراز</td>
+                                            <td><a href="#" class="btn btn-primary-main btn-sm w-100"> جزيیات </a> </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pt-3 text-center">۱۲۳۴۵۶۷۸</td>
+                                            <td class="pt-3 text-center">تهران - شیراز</td>
+                                            <td><a href="#" class="btn btn-primary-main btn-sm w-100"> جزيیات </a> </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pt-3 text-center">۱۲۳۴۵۶۷۸</td>
+                                            <td class="pt-3 text-center">تهران - شیراز</td>
+                                            <td><a href="#" class="btn btn-primary-main btn-sm w-100"> جزيیات </a> </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12 float-left pl-0 pr-3">
+                            <div class="card main-shadow w-100">
+                                <div class="card-title w-100 mb-1 pr-3 pt-3">
+                                    <h6 class="card-title mb-0 text-right mr-2 d-inline-block float-right">خرده بار</h6>
+                                    <a href="" class="text-orange text-left mb-0 ml-2 all hover-orange"> <span class="text-orange hover-orange">همه </span>  <i class="fas fa-angle-left text-orange mr-2 ml-2"></i></a>
+                                </div>
+                                <hr class="text-center mr-4 ml-4 mt-1 mb-0">
+                                <div class="card-body pr-0 pl-0 pb-0">
+                                    <table class="table table-striped table-borderless">
+                                        <tbody class="">
+                                        <thead>
+                                        <tr>
+                                            <td class="pt-3 text-center">۱۲۳۴۵۶۷۸</td>
+                                            <td class="pt-3 text-center">تهران - شیراز</td>
+                                            <td><a href="#" class="btn btn-primary-main btn-sm w-100"> جزيیات </a> </td>
+                                        </tr>
+                                        </thead>
+                                        <tr>
+                                            <td class="pt-3 text-center">۱۲۳۴۵۶۷۸</td>
+                                            <td class="pt-3 text-center">تهران - شیراز</td>
+                                            <td><a href="#" class="btn btn-primary-main btn-sm w-100"> جزيیات </a> </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pt-3 text-center">۱۲۳۴۵۶۷۸</td>
+                                            <td class="pt-3 text-center">تهران - شیراز</td>
+                                            <td><a href="#" class="btn btn-primary-main btn-sm w-100"> جزيیات </a> </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pt-3 text-center">۱۲۳۴۵۶۷۸</td>
+                                            <td class="pt-3 text-center">تهران - شیراز</td>
+                                            <td><a href="#" class="btn btn-primary-main btn-sm w-100"> جزيیات </a> </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pt-3 text-center">۱۲۳۴۵۶۷۸</td>
+                                            <td class="pt-3 text-center">تهران - شیراز</td>
+                                            <td><a href="#" class="btn btn-primary-main btn-sm w-100"> جزيیات </a> </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--footer-->
+<div class="container-fluid bg-white mt-4 pr-0 pl-0 border-top" id="bg-gray">
+    <div class="container pr-0 pl-0">
+        <!--start of footer-->
+        <div class="row">
+            <div class="footer">
+                <div class="main-footer mt-4" dir="rtl">
+                    <div class="footer-logo col-lg-3 col-md-6 col-sm-6 col-12 d-inline-block float-right pr-0">
+                        <div class="footer-logo justify-content-center text-right">
+                            <img src="images/logo.png" class="" width="100%">
+                        </div>
+                        <div class="footer-content  mt-2">
+                            <p class="text-justify">
+                                شرکت سامانه های هوشمند بارنما از سال ۱۳۹۵ با هدف ساماندهی به بازار حمل و نقل بار آغاز به کار کرد. رویکرد این مجموعه ارتباط بی واسطه صاحب کالا و رانندگان ناوگان باری
+                                است تا به این شیوه هزینه های حمل و نقل شفاف و روند کار حمل بار تسریع شود.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="footer-more col-lg-3 col-md-6 col-sm-6 col-12 d-inline-block w-75 float-right">
+                        <ul class="list-unstyled justify-content-center">
+                            <li class="list-item text-right">
+                                <a href="" class="text-dark hover-orange"><i class="fas fa-angle-left ml-2 text-orange"></i> <span class="hover-orange"> درباره ما</span></a>
+                            </li>
+                            <li class="list-item text-right mt-2">
+                                <a href="" class="text-dark hover-orange"><i class="fas fa-angle-left ml-2 text-orange"></i>  <span class="hover-orange">تماس با ما </span></a>
+                            </li>
+                            <li class="list-item text-right mt-2">
+                                <a href="" class="text-dark hover-orange"><i class="fas fa-angle-left ml-2 text-orange"></i><span class="hover-orange"> چرا علی بابا</span></a>
+                            </li>
+                            <li class="list-item text-right mt-2">
+                                <a href="" class="text-dark hover-orange"><i class="fas fa-angle-left ml-2 text-orange"></i> <span class="hover-orange">قوانین و مقررات</span></a>
+                            </li>
+                            <li class="list-item text-right mt-2">
+                                <a href="" class="text-dark hover-orange"><i class="fas fa-angle-left ml-2 text-orange"></i><span class="hover-orange">راهنمای خرید</span> </a>
+                            </li>
+                            <li class="list-item text-right mt-2">
+                                <a href="" class="text-dark hover-orange"><i class="fas fa-angle-left ml-2 text-orange"></i> <span class="hover-orange">پرسش و پاسخ</span> </a>
+                            </li>
+                            <li class="list-item text-right mt-2">
+                                <a href="" class="text-dark hover-orange"><i class="fas fa-angle-left ml-2 text-orange"></i> <span class="hover-orange">فرصت های شغلی</span>  </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-app col-lg-3 col-md-6 col-sm-6 col-12 d-inline-block text-center float-right mt-5">
+                        <b class="text-center text-dark">دریافت اپلیکیشن بارنما‍‍</b>
+                        <div class="appstore mt-4">
+                            <a href="#" class="mt-3"><img src="images/appstore.png" width="120px" height="40px" alt=""></a>
+                        </div>
+                        <div class="google-play mt-3">
+                            <a href="#" class=""> <img src="images/google-play.png" width="120px" height="40px" alt=""> </a>
+                        </div>
+                    </div>
+                </div>
+                <br/>
+            </div>
+        </div>
+    </div>
+    <!--end of footer-->
+</div>
+
+<!--bottom footer-->
+<div class="container-fluid bg-dark pr-0 pl-0">
+    <div class="container pr-0 pl-0">
+        <div class="row">
+            <div class="safe-content float-right w-75 mt-3">
+                <p class="text-small text-right text-light">تمام حقوق این وبسایت برای سامانه های هوشمند بارنمامحفوظ است</p>
+            </div>
+            <div class="social float-left w-25 mt-2 mb-2 text-left">
+                <span class="fa-stack text-danger">
+                    <a href="mailto:barnama.org@gmail.com">
+                        <i class="fa fa-circle fa-stack-2x text-gray-700"></i>
+                        <i class="fa fa-envelope fa-stack-1x text-gray-600"></i>
+                    </a>
+                </span>
+                <span class="fa-stack text-danger">
+                    <a href="#">
+                        <i class="fa fa-circle fa-stack-2x text-gray-700"></i>
+                        <i class="fab fa-telegram fa-stack-1x text-gray-600"></i>
+                    </a>
+                </span>
+                <span class="fa-stack text-danger">
+                    <a href="#">
+                        <i class="fa fa-circle fa-stack-2x text-gray-700"></i>
+                        <i class="fab fa-instagram fa-stack-1x text-gray-600"></i>
+                    </a>
+                </span>
+                <span class="fa-stack text-danger">
+                    <a href="#">
+                        <i class="fa fa-circle fa-stack-2x text-gray-700"></i>
+                        <i class="fab fa-linkedin-in fa-stack-1x text-gray-600"></i>
+                    </a>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--script-->
+<script src="js/picker.js"></script>
+<script src="js/picker.date.js"></script>
+<script src="js/fa_IR.js"></script>
+<script src="js/script.js"></script>
+<script src="js/date.js"></script>
+</body>
+</html>

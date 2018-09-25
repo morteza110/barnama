@@ -1,0 +1,32 @@
+
+
+.btn-link-secondary-active {
+  @extend .btn-primary-main;
+  border-color: #d7d7d7 !important;
+  border-radius:40px !important;
+  background-color: transparent;
+  color: black;
+  &:hover {
+
+    color: white;
+    i{
+      color: white ;
+    }
+  }
+  &.active {
+    color: white;
+    background-color: $main-color-primary;
+    i{
+      color: white;
+    }
+  }
+}
+//for float-left the icon of select tag
+.custom-select{
+  background: #fff url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat left 0.75rem center !important;
+  padding: 0.375rem 0.5rem 0.375rem 0.75rem !important;
+  background-size: 8px 10px !important;
+}
+
+
+

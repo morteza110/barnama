@@ -1,0 +1,36 @@
+.container-fluid {
+  nav{
+    box-shadow: 0 2px 8px 1px rgba(82, 82, 82, .9);
+    .dropdown-toggle::after {
+      display: none;
+    }
+    .nav-link {
+      &:hover {
+        color: rgba(0, 0, 0, .5) !important;
+      }
+    }
+    .fa-phone{
+      font-size: $text-large;
+      transform: rotate(90deg);
+    }
+    .dropdown-menu {
+      min-width: 300px;
+      form {
+        input,button{
+          width: 90% !important;
+        }
+        input[type= "checkbox"] {
+          width: 10%!important;
+        }
+      }
+    }
+    .dark-hover{
+      &:hover{
+        color: rgba(0,0,0,.7) !important;
+      }
+    }
+    .dropdown-menu.support {
+      min-width: 200px !important;
+    }
+  }
+}
