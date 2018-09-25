@@ -1,132 +1,130 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
-    <meta charset="utf-8">
+    <!--meta tags-->
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--links-->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!--script-->
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/fontawesome.js"></script>
+    <script type="text/javascript" src="js/fontawesome.min.js"></script>
     <title>تابلوی بارنما</title>
 </head>
+
 <body>
 <!--header-->
 <div class="container-fluid">
-    <div class="row">
-
-        <nav class="navbar navbar-expand-lg header fixed-top bg-white">
-            <button class="navbar-toggler float-right" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent"
-                    aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
-                    class="navbar-toggler-icon"></span></button>
-            <a href="" class="navbar-brand float-lg-right float-md-left"> <img src="images/logo.png" width="170"> </a>
-            <ul class="navbar-nav mr-5 d-none d-lg-inline-flex pull-right hidden-md">
-
-                <li class="nav-item ml-2" data-toggle="tooltip" data-placement="bottom"
-                    data-original-title="به زودی ..!">
-                    <a href="" class="nav-item nav-link d-block text-center"> <img src="images/menu/truck.png" class=""
-                                                                                   alt="truck" height="25"> <br/> سفارش
-                        حمل بار</a>
+    <div class="header">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="http://barnama.org">
+                <img src="http://barnama.org/img/logo.png" width="170" alt="">
+            </a>
+            <!--menu header-->
+            <ul class="navbar-nav mr-5 d-none d-lg-inline-flex">
+                <li class="nav-item ml-4" data-toggle="tooltip" data-placement="bottom" title="به زودی...">
+                    <a class="nav-item nav-link d-block text-center ">
+                        <img src="http://barnama.org/img/truck.png" class="" alt="truck" height="25">
+                        <br>
+                        سفارش حمل بار
+                    </a>
                 </li>
-                <li class="nav-item  mr-3 ml-3">
-                    <a href="" class="nav-item nav-link d-block text-center"> <img src="images/menu/monitor.png"
-                                                                                   class="" alt="monitor" height="25">
-                        <br/> تابلو بارنما</a>
+                <li class="nav-item dropdown ml-4">
+                    <a class="nav-item nav-link d-block text-center dark-hover" href="http://barnama.org/board">
+                        <img src="http://barnama.org/img/monitor.png" class="" alt="monitor" height="25">
+                        <br>
+                        تابلو بارنما
+                    </a>
                 </li>
-
-                <li class="nav-item mr-2" data-toggle="tooltip" data-placement="bottom"
-                    data-original-title="به زودی ..!">
-                    <a href="" class="nav-item nav-link d-block text-center"> <img src="images/menu/box.png" class=""
-                                                                                   alt="box" height="25"> <br/> خرده بار</a>
+                <li class="nav-item ml-2" data-toggle="tooltip" data-placement="bottom" title="به زودی...">
+                    <a class="nav-item nav-link d-block text-center ">
+                        <img src="http://barnama.org/img/box.png" class="" alt="truck" height="25">
+                        <br>
+                        خرده بار
+                    </a>
                 </li>
-
             </ul>
-            <div class="row">
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav profile-navbar mr-auto">
-                        <li class="nav-item ml-4">
-                            <ul class="navbar-nav mr-right">
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <i class="fa fa-user text-orange ml-1"></i>
-                                        ورود / ثبت نام
-                                        <i class="fa fa-angle-down text-orange"></i>
-                                    </a>
-                                    <div class="dropdown-menu col-sm-6 col-12 justify-content-center">
-                                        <form action="http://barnama.org/login" method="post" accept-charset="UTF-8">
-                                            <input type="hidden" name="_token"
-                                                   value="avxn1mzWySC7tjTIIzWfPsLQrX9SijxsolaH60qE">
-                                            <div class="form-group text-right dropdown-item-no-link">
-                                                <input type="text" class="form-control" id="mobile" name="username"
-                                                       placeholder="شماره موبایل">
-                                            </div>
-                                            <div class="form-group text-right dropdown-item-no-link">
-
-                                                <input type="password" class="form-control" id="password"
-                                                       name="password" placeholder="رمز عبور">
-                                            </div>
-                                            <div class="dropdown-item-no-link">
-                                                <button type="submit" class="btn btn-block btn-primary mb-3">ورود
-                                                </button>
-                                            </div>
-                                            <div class="form-check text-right dropdown-item-no-link">
-                                                <input type="checkbox" class="" id="remember-me">
-                                                <label for="remember-me">&nbsp;مرا به‌خاطر بسپار</label>
-                                            </div>
-                                            <a class="dropdown-item text-right dropdown-item-no-link"
-                                               href="http://barnama.org/password/reset">
-                                                <i class="fa fa-angle-left ml-1 text-primary text-orange"></i>
-                                                بازیابی رمز عبور
-                                            </a>
-                                        </form>
-                                        <div class="dropdown-divider"></div>
-                                        <div class="dropdown-item-no-link text-right mb-2 mr-3 ml-3">حساب کاربری ندارید؟
-                                            <a href="http://barnama.org/register"
-                                               class="btn btn-block btn-light register mt-2">ثبت نام</a>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav contact-navbar pr-0">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <div>
-                                    <div class="icon d-table-cell align-middle"><i
-                                            class="fa fa-phone ml-3 fa-1x text-orange"></i></div>
-                                    <div class="text d-table-cell align-top text-right">
-                                        <strong>تماس با ما</strong>
-                                        <br>
-                                        <span class="text-gray-500">۰۲۱۵۵۴۵۹۰۳۴</span>
-                                    </div>
-                                    <div class="icon d-table-cell align-middle"><i
-                                            class="fa fa-angle-down text-orange"></i></div>
-                                </div>
-                            </a>
-                            <div class="dropdown-menu support text-right col-lg-3 col-md-4 col-sm-6 col-12">
-                                <div class="text-right dropdown-item-no-link mr-4">
-                                    پشتیبانی ۲۴ ساعته
-                                    <br>
-                                    ۰۲۱۵۵۴۵۹۰۳۴
-                                </div>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item text-right"
-                                   href="http://barnama.org/page/%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7">
-                                    تماس با ما
+            <!--collapse-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!--join and register header-->
+                <ul class="navbar-nav profile-navbar mr-auto">
+                    <li class="nav-item ml-4">
+                        <ul class="navbar-nav mr-right">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle dark-hover" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fa fa-user text-orange ml-1"></i>
+                                    ورود / ثبت نام
+                                    <i class="fa fa-angle-down text-orange"></i>
                                 </a>
+                                <div class="dropdown-menu">
+                                    <form action="http://barnama.org/login" method="post" accept-charset="UTF-8">
+                                        <input type="hidden" name="_token" value="cXlzn8XXs2gwAHMYDgLRzlmtTDAPKt6vnIXTXIO2">
+                                        <div class="form-group text-right dropdown-item-no-link mt-2">
+                                            <input type="text" class="form-control mr-auto ml-auto" id="mobile" name="username" placeholder="شماره موبایل" dir="ltr">
+                                        </div>
+                                        <div class="form-group text-right dropdown-item-no-link">
+                                            <input type="password" class="form-control mr-auto ml-auto" id="password" name="password" placeholder="رمز عبور" dir="ltr">
+                                        </div>
+                                        <div class="dropdown-item-no-link">
+                                            <button type="submit" class="btn btn-block btn-primary-main mb-3 mr-auto ml-auto">ورود</button>
+                                        </div>
+                                        <div class="form-check text-right dropdown-item-no-link">
+                                            <input type="checkbox" class="pt-3 mt-1 mr-2 pl-3" id="remember-me">
+                                            <label for="remember-me">&nbsp;مرا به‌خاطر بسپار</label>
+                                        </div>
+                                        <a class="dropdown-item text-right dropdown-item-no-link" href="http://barnama.org/password/reset">
+                                            <i class="fa fa-angle-left ml-1 text-orange"></i>
+                                            بازیابی رمز عبور
+                                        </a>
+                                    </form>
+                                    <div class="dropdown-divider"></div>
+                                    <div class="dropdown-item-no-link mb-2 text-right">
+                                        <label for="" class="mr-2"> حساب کاربری ندارید؟ </label>
+                                        <a href="http://barnama.org/register" class="btn btn-secondary-green d-table mr-auto ml-auto">ثبت نام</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <!--contact us header-->
+                <ul class="navbar-nav contact-navbar pr-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle dark-hover" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <div>
+                                <div class="icon d-table-cell align-middle"><i class="fas fa-phone ml-3 fa-1x text-orange"></i></div>
+                                <div class="text d-table-cell align-top text-right">
+                                    <strong>تماس با ما</strong>
+                                    <br>
+                                    <span class="text-gray-500">۰۲۱۵۵۴۵۹۰۳۴</span>
+                                </div>
+                                <div class="icon d-table-cell align-middle"><i class="fa fa-angle-down text-orange"></i></div>
                             </div>
-                        </li>
-                    </ul>
-                </div>
+                        </a>
+                        <div class="dropdown-menu text-right">
+                            <div class="text-right dropdown-item-no-link mr-2">
+                                پشتیبانی ۲۴ ساعته
+                                <br>
+                                ۰۲۱۵۵۴۵۹۰۳۴
+                            </div>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item text-right pr-0 pr-2" href="http://barnama.org/page/%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7">
+                                تماس با ما
+                            </a>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </nav>
-
     </div>
 </div>
 <!--end of header-->
@@ -1653,77 +1651,105 @@
     </div>
     <br/>
     <!--end of navbar-->
-    <!--start of footer-->
-    <div class="row">
-        <div class="footer">
-            <div class="main-footer">
 
-                <div class="footer-log col-lg-3 d-inline-block">
-                    <div class="footer-logo justify-content-center">
-                        <img src="images/logo.png" class="" alt="">
+        <!--footer-->
+        <div class="container-fluid bg-white mt-4 pr-0 pl-0 border-top" id="bg-gray">
+            <div class="container pr-0 pl-0">
+                <!--start of footer-->
+                <div class="row">
+                    <div class="footer">
+                        <div class="main-footer mt-4" dir="rtl">
+                            <div class="footer-logo col-lg-3 col-md-6 col-sm-6 col-12 d-inline-block float-right pr-0">
+                                <div class="footer-logo justify-content-center text-right">
+                                    <img src="../home/images/logo.png" class="" width="100%">
+                                </div>
+                                <div class="footer-content  mt-2">
+                                    <p class="text-justify">
+                                        شرکت سامانه های هوشمند بارنما از سال ۱۳۹۵ با هدف ساماندهی به بازار حمل و نقل بار آغاز به کار کرد. رویکرد این مجموعه ارتباط بی واسطه صاحب کالا و رانندگان ناوگان باری
+                                        است تا به این شیوه هزینه های حمل و نقل شفاف و روند کار حمل بار تسریع شود.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="footer-more col-lg-3 col-md-6 col-sm-6 col-12 d-inline-block w-75 float-right">
+                                <ul class="list-unstyled justify-content-center">
+                                    <li class="list-item text-right">
+                                        <a href="" class="text-dark hover-orange"><i class="fas fa-angle-left ml-2 text-orange"></i> <span class="hover-orange"> درباره ما</span></a>
+                                    </li>
+                                    <li class="list-item text-right mt-2">
+                                        <a href="" class="text-dark hover-orange"><i class="fas fa-angle-left ml-2 text-orange"></i>  <span class="hover-orange">تماس با ما </span></a>
+                                    </li>
+                                    <li class="list-item text-right mt-2">
+                                        <a href="" class="text-dark hover-orange"><i class="fas fa-angle-left ml-2 text-orange"></i><span class="hover-orange"> چرا علی بابا</span></a>
+                                    </li>
+                                    <li class="list-item text-right mt-2">
+                                        <a href="" class="text-dark hover-orange"><i class="fas fa-angle-left ml-2 text-orange"></i> <span class="hover-orange">قوانین و مقررات</span></a>
+                                    </li>
+                                    <li class="list-item text-right mt-2">
+                                        <a href="" class="text-dark hover-orange"><i class="fas fa-angle-left ml-2 text-orange"></i><span class="hover-orange">راهنمای خرید</span> </a>
+                                    </li>
+                                    <li class="list-item text-right mt-2">
+                                        <a href="" class="text-dark hover-orange"><i class="fas fa-angle-left ml-2 text-orange"></i> <span class="hover-orange">پرسش و پاسخ</span> </a>
+                                    </li>
+                                    <li class="list-item text-right mt-2">
+                                        <a href="" class="text-dark hover-orange"><i class="fas fa-angle-left ml-2 text-orange"></i> <span class="hover-orange">فرصت های شغلی</span>  </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer-app col-lg-3 col-md-6 col-sm-6 col-12 d-inline-block text-center float-right mt-5">
+                                <b class="text-center text-dark">دریافت اپلیکیشن بارنما‍‍</b>
+                                <div class="appstore mt-4">
+                                    <a href="#" class="mt-3"><img src="images/appstore.png" width="120px" height="40px" alt=""></a>
+                                </div>
+                                <div class="google-play mt-3">
+                                    <a href="#" class=""> <img src="images/google-play.png" width="120px" height="40px" alt=""> </a>
+                                </div>
+                            </div>
+                        </div>
+                        <br/>
                     </div>
-                    <div class="footer-content">
-                        <p>شرکت سامانه های هوشمند بارنما از سال1395 با هدف ساماندهی به
-                            بازار حمل و نقل بار آغاز به کار کرد. رویکرد ارتباط این مجموعه،
-                            ارتباط بی واسطه صاحب بار و بار بری است.</p>
-                    </div>
                 </div>
-                <div class="footer-more col-lg-3 d-inline-block float-right">
-                    <ul>
-                        <a href="#">
-                            <li>درباره ما</li>
-                        </a>
-                        <a href="form.html">
-                            <li>تماس باما</li>
-                        </a>
-                        <a href="#">
-                            <li>چرا علی بابا</li>
-                        </a>
-                        <a href="#">
-                            <li>قوانین و مقرات</li>
-                        </a>
-                        <a href="#">
-                            <li>راهنمای خرید</li>
-                        </a>
-                    </ul>
-                </div>
-                <div class="footer-app col-lg-3 justify-content-center">
-                    <a href="#"><h5>دریافت اپلیکیشن بارنما</h5></a>
-                    <div class="image">
-                        <a href="#"><img src="images/appstore-icon-mobile-retina.png" alt=""></a>
-                    </div>
-                </div>
-                <div class="footer-namad col-lg-3 float-left">
-                    <img src="images/namad.png" alt="">
-                </div>
-
             </div>
-            <hr>
+            <!--end of footer-->
+        </div>
 
-            <div class="safe">
-                <div class="safe-content">
-                    <p>تمام حقوق این وبسایت برای سامانه های هوشمند بارنمامحفوظ است</p>
-                </div>
-                <div class="social">
-                    <div class="icon">
-                        <a href="#"><i class="fa fa-envelope fa-2x"></i></a>
+        <!--bottom footer-->
+        <div class="container-fluid bg-dark pr-0 pl-0">
+            <div class="container pr-0 pl-0">
+                <div class="row">
+                    <div class="safe-content float-right w-75 mt-3">
+                        <p class="text-small text-right text-light">تمام حقوق این وبسایت برای سامانه های هوشمند بارنمامحفوظ است</p>
                     </div>
-                    <div class="icon">
-                        <a href="#"><i class="fa fa-telegram fa-2x fa-circle"></i></a>
-                    </div>
-                    <div class="icon">
-                        <a href="#"><i class="fa fa-instagram fa-2x fa-circle"></i></a>
-                    </div>
-                    <div class="icon">
-                        <a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
+                    <div class="social float-left w-25 mt-2 mb-2 text-left">
+                <span class="fa-stack text-danger">
+                    <a href="mailto:barnama.org@gmail.com">
+                        <i class="fa fa-circle fa-stack-2x text-gray-700"></i>
+                        <i class="fa fa-envelope fa-stack-1x text-gray-600"></i>
+                    </a>
+                </span>
+                        <span class="fa-stack text-danger">
+                    <a href="#">
+                        <i class="fa fa-circle fa-stack-2x text-gray-700"></i>
+                        <i class="fab fa-telegram fa-stack-1x text-gray-600"></i>
+                    </a>
+                </span>
+                        <span class="fa-stack text-danger">
+                    <a href="#">
+                        <i class="fa fa-circle fa-stack-2x text-gray-700"></i>
+                        <i class="fab fa-instagram fa-stack-1x text-gray-600"></i>
+                    </a>
+                </span>
+                        <span class="fa-stack text-danger">
+                    <a href="#">
+                        <i class="fa fa-circle fa-stack-2x text-gray-700"></i>
+                        <i class="fab fa-linkedin-in fa-stack-1x text-gray-600"></i>
+                    </a>
+                </span>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-  </div>
-    <!--end of footer-->
 
-<script type="text/javascript" src="js/script.js"></script>
+        <!--script-->
+        <script src="../home/js/script.js"></script>
 </body>
 </html>
