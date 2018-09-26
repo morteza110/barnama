@@ -2,89 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43a8c9f6-fac1-405d-bb2c-e4c82cf8cb99" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/dashboard/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/board.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/board.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/credit.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/credit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dashboard/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/js/vue.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dashboard/my-cargoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/my-cargoes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dashboard/request-cargoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/request-cargoes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/scss/buttons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/scss/buttons.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/scss/custom.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/scss/font.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/scss/font.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dashboard/scss/mainbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/scss/mainbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/scss/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/scss/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/scss/variabales.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/scss/variabales.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dashboard/transactions.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/transactions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/css/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/fonts/IRANSansLight.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/fonts/IRANSansLight.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/fonts/IRANSansMedium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/fonts/IRANSansMedium.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/fonts/Shabnam.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/fonts/Shabnam.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/fonts/Shabnam.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/fonts/fa-brands-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/fonts/fa-brands-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/fonts/fa-brands-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/fonts/fa-brands-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/fonts/fa-brands-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/fonts/fa-regular-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/fonts/fa-regular-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/fonts/fa-regular-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/fonts/fa-regular-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/fonts/fa-regular-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/fonts/fa-solid-900.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/fonts/fa-solid-900.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/fonts/fa-solid-900.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/fonts/fa-solid-900.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/fonts/fa-solid-900.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/fonts/iransans-medium.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/fonts/iransans-ultra-light.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/fonts/iransans.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/images/appstore-icon-mobile-retina.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/images/compressi.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/images/icons/angle-down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/images/icons/instagram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/images/icons/linkdin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/images/icons/mail.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/images/icons/map-market.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/images/icons/phone.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/images/icons/telegram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/images/icons/truck1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/images/icons/user.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/images/kafi.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/images/khaver.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/images/menu/box.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/images/menu/monitor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/images/menu/truck.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/images/namad.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/images/tranzit.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/js/fontawesome.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/js/jquery-3.3.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/js/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/js/vue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/scss/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/scss/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/scss/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/scss/style1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/scss/style1.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/scss/style1.scss" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,14 +32,14 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="LICENSE" value="1" />
-          <entry key="html" value="40" />
+          <entry key="html" value="46" />
           <entry key="js" value="10" />
           <entry key="scss" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="40" />
+          <entry key="HTML" value="46" />
           <entry key="JavaScript" value="10" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SCSS" value="22" />
@@ -122,18 +47,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="3023" />
+          <entry key="html" value="3077" />
           <entry key="js" value="32" />
-          <entry key="scss" value="748" />
+          <entry key="scss" value="799" />
           <entry key="txt" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="3023" />
+          <entry key="HTML" value="3077" />
           <entry key="JavaScript" value="32" />
           <entry key="PLAIN_TEXT" value="16" />
-          <entry key="SCSS" value="748" />
+          <entry key="SCSS" value="799" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -150,26 +75,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dashboard/scss/mainbar.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="129" column="23" selection-start-line="129" selection-start-column="23" selection-end-line="129" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dashboard/transactions.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="160" column="50" selection-start-line="160" selection-start-column="50" selection-end-line="160" selection-end-column="50" />
+            <state relative-caret-position="289">
+              <caret line="92" column="32" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dashboard/dashboard.html">
+        <entry file="file://$PROJECT_DIR$/dashboard/board.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="254" column="20" selection-start-line="254" selection-start-column="20" selection-end-line="254" selection-end-column="20" />
+            <state relative-caret-position="354">
+              <caret line="1275" column="70" selection-start-line="1275" selection-start-column="70" selection-end-line="1275" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -208,7 +124,6 @@
         <option value="$PROJECT_DIR$/dashboard/scss/custom.scss" />
         <option value="$PROJECT_DIR$/dashboard/scss/buttons.scss" />
         <option value="$PROJECT_DIR$/dashboard/contact.html" />
-        <option value="$PROJECT_DIR$/dashboard/credit.html" />
         <option value="$PROJECT_DIR$/dashboard/js/slide.js" />
         <option value="$PROJECT_DIR$/dashboard/js/script.js" />
         <option value="$PROJECT_DIR$/dashboard/m.html" />
@@ -217,12 +132,13 @@
         <option value="$PROJECT_DIR$/dashboard/index.html" />
         <option value="$PROJECT_DIR$/dashboard/tablo.html" />
         <option value="$PROJECT_DIR$/home/index.html" />
-        <option value="$PROJECT_DIR$/dashboard/board.html" />
-        <option value="$PROJECT_DIR$/dashboard/scss/mainbar.scss" />
+        <option value="$PROJECT_DIR$/dashboard/transactions.html" />
         <option value="$PROJECT_DIR$/dashboard/request-cargoes.html" />
         <option value="$PROJECT_DIR$/dashboard/my-cargoes.html" />
-        <option value="$PROJECT_DIR$/dashboard/transactions.html" />
         <option value="$PROJECT_DIR$/dashboard/dashboard.html" />
+        <option value="$PROJECT_DIR$/dashboard/credit.html" />
+        <option value="$PROJECT_DIR$/dashboard/scss/mainbar.scss" />
+        <option value="$PROJECT_DIR$/dashboard/board.html" />
       </list>
     </option>
   </component>
@@ -235,7 +151,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="20" />
     <option name="y" value="30" />
     <option name="width" value="843" />
@@ -312,7 +228,7 @@
       <workItem from="1537774174555" duration="12168000" />
       <workItem from="1537853207951" duration="22433000" />
       <workItem from="1537882418223" duration="145000" />
-      <workItem from="1537938843060" duration="9874000" />
+      <workItem from="1537938843060" duration="11945000" />
     </task>
     <task id="LOCAL-00001" summary="add tablo.html">
       <created>1537860045827</created>
@@ -325,10 +241,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44620000" />
+    <option name="totallyTimeSpent" value="46691000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09455588" />
@@ -352,25 +268,25 @@
       <window_info anchor="right" id="Database" order="3" />
     </layout>
     <layout-to-restore>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1325215" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="right" id="Database" order="0" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09455588" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,11 +345,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/credit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/m.html" />
     <entry file="file://$PROJECT_DIR$/dashboard/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -446,13 +357,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="179" column="214" selection-start-line="179" selection-start-column="214" selection-end-line="179" selection-end-column="214" />
         </state>
       </provider>
     </entry>
@@ -514,17 +418,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/board.html">
+    <entry file="file://$PROJECT_DIR$/dashboard/transactions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="1337" column="70" selection-start-line="1337" selection-start-column="70" selection-end-line="1337" selection-end-column="70" />
+        <state relative-caret-position="411">
+          <caret line="397" lean-forward="true" selection-start-line="397" selection-end-line="397" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/my-cargoes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4165">
+          <caret line="156" column="29" lean-forward="true" selection-start-line="156" selection-start-column="29" selection-end-line="156" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/request-cargoes.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="275" column="51" selection-start-line="275" selection-start-column="51" selection-end-line="275" selection-end-column="51" />
+        <state relative-caret-position="1275">
+          <caret line="245" column="49" selection-start-line="245" selection-start-column="49" selection-end-line="245" selection-end-column="49" />
           <folding>
             <element signature="n#style#0;n#hr#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -532,31 +443,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/my-cargoes.html">
+    <entry file="file://$PROJECT_DIR$/dashboard/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-232">
-          <caret line="186" column="38" selection-start-line="186" selection-start-column="38" selection-end-line="186" selection-end-column="38" />
+        <state relative-caret-position="-2567">
+          <caret line="157" column="12" selection-start-line="157" selection-start-column="12" selection-end-line="157" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/credit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3349">
+          <caret line="197" lean-forward="true" selection-start-line="197" selection-end-line="197" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3043">
+          <caret line="179" column="214" selection-start-line="179" selection-start-column="214" selection-end-line="179" selection-end-column="214" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/scss/mainbar.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="129" column="23" selection-start-line="129" selection-start-column="23" selection-end-line="129" selection-end-column="23" />
+        <state relative-caret-position="289">
+          <caret line="92" column="32" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/transactions.html">
+    <entry file="file://$PROJECT_DIR$/dashboard/board.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="160" column="50" selection-start-line="160" selection-start-column="50" selection-end-line="160" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="254" column="20" selection-start-line="254" selection-start-column="20" selection-end-line="254" selection-end-column="20" />
+        <state relative-caret-position="354">
+          <caret line="1275" column="70" selection-start-line="1275" selection-start-column="70" selection-end-line="1275" selection-end-column="70" />
         </state>
       </provider>
     </entry>
