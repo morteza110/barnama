@@ -1,6 +1,6 @@
 
 //styles
-p, h6, span, text, a, input, div, li, ul,button,textarea {
+p, h6, span, text, a, input, div, li, ul, button, textarea, option{
   font-family: 'shabnam', tahoma, sans-serif;
   font-weight: 400;
 }
@@ -14,6 +14,13 @@ a{
 .text-orange {
   color: $color-orange;
 }
+.text-orange-all{
+  @extend .hover-orange;
+  color: $color-orange !important;
+  &:hover{
+    color: darken($color-orange,10%) !important;
+  }
+}
 .text-gray-700 {
   color: $color-gray-700;
 }
@@ -23,8 +30,22 @@ a{
 .bg-gray-50{
   background-color: $color-gray-50;
 }
+.bg-gray{
+
+  background-color: $color-gray-50;
+  &:hover{
+    background-color: darken($color-gray-50,10%);
+    color: $color-gray-700;
+  }
+}
+.text-gray-50{
+  color:  $color-gray-50;
+}
 .text-small{
   font-size: $text-small;
+}
+.text-small-14{
+  font-size: 12px;
 }
 .text-medium{
   font-size: $text-medium;
@@ -42,7 +63,8 @@ a{
   border: 1px solid $color-gray-500;
 }
 .hover-orange{
-  :hover{
+  color: $color-gray-700;
+  &:hover{
     color: darken($color-orange, 8%);
   }
 }
@@ -55,9 +77,20 @@ a{
     color: darken($color-green, 10%);
   }
 }
+.text-eshill{
+  color: $color-light-green !important;
+}
+.bg-green{
+  background-color: $color-green;
+}
 .bg-orange{
   background-color: lighten($color-orange, 5%);
   height: 1px;
+}
+.vertical-text{
+  writing-mode: vertical-rl;
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: vertical-rl;
 }
 
 //style for input [type = number],credit.html, my-cargoes.html
@@ -69,6 +102,19 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
 
+//styles for custom-control at tablo.html
+.custom-control-label:after,
+.custom-control-label:before {
+  right: 18rem;
+}
+.custom-control-input:checked~.custom-control-label::before,.custom-control-input:checked~.custom-control-label::after{
+  background-color: $color-light-green;
+  border-radius: 50%;
+}
+.custom-radio .custom-control-input:checked~.custom-control-label::before, .custom-radio .custom-control-input:checked~.custom-control-label::after{
+  background-color: $color-light-green;
+  border-radius: 50%;
+}
 //style for request-cargoes.html, mySlides;
 .prev, .next{
   transition: .6s ease;
@@ -80,6 +126,9 @@ input::-webkit-inner-spin-button {
   background-color: #717171;
 }
 .fade {
+  .text-center{
+    o-text-align: none;
+  }
   -webkit-animation-name: fade;
   -webkit-animation-duration: 100s;
   animation-name: fade;

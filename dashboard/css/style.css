@@ -73,7 +73,7 @@
   .container-fluid nav .dropdown-menu.support {
     min-width: 200px !important; }
 
-p, h6, span, text, a, input, div, li, ul, button, textarea {
+p, h6, span, text, a, input, div, li, ul, button, textarea, option {
   font-family: 'shabnam', tahoma, sans-serif;
   font-weight: 400; }
 
@@ -87,6 +87,11 @@ a {
 .text-orange {
   color: #fd7e14; }
 
+.text-orange-all {
+  color: #fd7e14 !important; }
+  .text-orange-all:hover {
+    color: #dc6502 !important; }
+
 .text-gray-700 {
   color: #495057; }
 
@@ -96,8 +101,20 @@ a {
 .bg-gray-50 {
   background-color: #e7ecef; }
 
+.bg-gray {
+  background-color: #e7ecef; }
+  .bg-gray:hover {
+    background-color: #c8d4db;
+    color: #495057; }
+
+.text-gray-50 {
+  color: #e7ecef; }
+
 .text-small {
   font-size: 10px; }
+
+.text-small-14 {
+  font-size: 12px; }
 
 .text-medium {
   font-size: 15px; }
@@ -114,8 +131,10 @@ a {
 .border-gray {
   border: 1px solid #adb5bd; }
 
-.hover-orange :hover {
-  color: #e66a02; }
+.hover-orange, .text-orange-all {
+  color: #495057; }
+  .hover-orange:hover, .text-orange-all:hover {
+    color: #e66a02; }
 
 .text-gray-600 {
   color: #838f9b; }
@@ -125,9 +144,20 @@ a {
   .text-green:hover {
     color: #669415; }
 
+.text-eshill {
+  color: #039285 !important; }
+
+.bg-green {
+  background-color: #85c11b; }
+
 .bg-orange {
   background-color: #fd8c2d;
   height: 1px; }
+
+.vertical-text {
+  writing-mode: vertical-rl;
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: vertical-rl; }
 
 input[type='number'] {
   -moz-appearance: textfield; }
@@ -135,6 +165,18 @@ input[type='number'] {
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none; }
+
+.custom-control-label:after,
+.custom-control-label:before {
+  right: 18rem; }
+
+.custom-control-input:checked ~ .custom-control-label::before, .custom-control-input:checked ~ .custom-control-label::after {
+  background-color: #039285;
+  border-radius: 50%; }
+
+.custom-radio .custom-control-input:checked ~ .custom-control-label::before, .custom-radio .custom-control-input:checked ~ .custom-control-label::after {
+  background-color: #039285;
+  border-radius: 50%; }
 
 .prev, .next {
   transition: .6s ease; }
@@ -150,6 +192,8 @@ input::-webkit-inner-spin-button {
   -webkit-animation-duration: 100s;
   animation-name: fade;
   animation-duration: 100s; }
+  .fade .text-center {
+    o-text-align: none; }
 
 @-webkit-keyframes fade {
   from {
